@@ -584,19 +584,30 @@ let listOfPlayers = ["Soh Chin Ann[a]",
 "Arda Turan",
 "Andris Vaņins[ef]"]
 
-const randNumber = () => {
-    return Math.floor(Math.random() * listOfPlayers.length)
+const randNumber = array => {
+    return Math.floor(Math.random() * array.length)
 }
 
 
-const randPlayer = () => {
+const randPlayer = array => {
     let player = []
-    while (player === []) {
-        player.push[listOfPlayers[randNumber]]
-    }
+    for (let i = 0; i < 1; i++) {
+        player.push(array[randNumber(listOfPlayers)])
+    }  
     return player
 }
 
+const randLeague = array => {
+    let league = []
+    for (let i = 0; i < 1; i++) {
+        league.push(array[randNumber(listofLeagues)])
+    }
+}
 
-console.log(randNumber())
-console.log(randPlayer())
+const randGoals = array => {
+    let goals = []
+    for (let i = 0 )
+}
+
+
+console.log(randPlayer(listOfPlayers))

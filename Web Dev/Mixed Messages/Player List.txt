@@ -584,3 +584,6 @@
 "Arda Turan",
 "Andris Vaņins[ef]"
 
+player
+League they play in
+number of goals they will score
