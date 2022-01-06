@@ -26,12 +26,16 @@ li, a {
     text-decoration: none;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px; 10%; /* 30 pixels from the top and then 10% from the sides*/  
-    background-color: #24252a  
+    padding: 30px; 10%; /* 30 pixels from the top and then 10% from the sides*/
+    background-color: #24252a;
+}
+
+footer ul li:nth-child(1) {
+    padding: 0 0 0 0;
 }
 
 ul {
