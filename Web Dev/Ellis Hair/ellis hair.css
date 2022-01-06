@@ -1,54 +1,6 @@
-nav .welcome {
-    text-align: left;
-    background-image: url(./banner.jpg);
-    border: 2px solid black;
-    width: 75%;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-}
-
-nav .pages {
-    text-align:right;
-    align-items: center;
-    height: 200px;
-    width: 25%;
-}
-h1 {
-    color: darkgreen;
-
-}
-
-ul {
-    color: blueviolet;
-}
-
-.about {
-    font-size: large;
-}
-
-header {
-
-}
-
-footer {
-    background-position: right;
-    background-image: url(./banner.jpg);
-    background-repeat: no-repeat;
-    width: auto;
-    height: 200px;
-    border: 2px solid black;
-    text-align: left;
-    background-position-y: bottom;
-    font-size: larger;
-    
-}
-
-#familypicture, #mapspic {
-    width: 540px;
-    height: auto;
-}
-
 body {
-    background-color: #EEE;
+    background-color: #eee;
 }
+
+.mainhome {
+    background-image: url("");
