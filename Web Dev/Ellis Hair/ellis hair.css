@@ -1,7 +1,19 @@
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+nav .welcome {
+    text-align: left;
+    background-image: url(./banner.jpg);
+    border: 2px solid black;
+    width: 75%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
+nav .pages {
+    text-align:right;
+    align-items: center;
+    height: 200px;
+    width: 25%;
+}
 h1 {
     color: darkgreen;
 
@@ -16,16 +28,7 @@ ul {
 }
 
 header {
-    background-image: url(./banner.jpg);
-    border: 2px solid black;
-    width: auto;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-}
 
-.date {
-    color: darkgreen
 }
 
 footer {
@@ -46,14 +49,6 @@ footer {
     height: auto;
 }
 
-a:hover{
-    color:black;
-}
-
-a {
-    color: darkgreen
-}
-
 body {
-    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+    background-color: #EEE;
 }
