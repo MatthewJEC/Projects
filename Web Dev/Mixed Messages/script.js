@@ -35,16 +35,16 @@ const randLeague = array => {
     return league
 }
 
-const randGoals = array => {
+const randGoals = () => {
     let goals = []
     for (let i = 0; i < 1; i++) {
-        goals.push(array[randNumber(500)])
+        goals.push(Math.floor(Math.random() * 500))
     }
     return goals
 }
 
 let sentence = () => {
-    console.log('In another time and place ' + randPlayer(listOfPlayers) + ' would have played in another league. Perhaps ' + randLeague(listOfLeagues) + '. Would they have been as proficient in this league? I predict the number of goals they would have scored would be ' + randGoals(numberOfGoals))
+    console.log('In another time and place ' + randPlayer(listOfPlayers) + ' would have played in another league. Perhaps ' + randLeague(listOfLeagues) + '. Would they have been as proficient in this league? I predict the number of goals they would have scored would be ' + randGoals())
 }
 
 sentence()
