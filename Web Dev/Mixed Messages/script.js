@@ -44,7 +44,11 @@ const randGoals = () => {
 }
 
 let sentence = () => {
-    console.log('In another time and place ' + randPlayer(listOfPlayers) + ' would have played in another league. Perhaps ' + randLeague(listOfLeagues) + '. Would they have been as proficient in this league? I predict the number of goals they would have scored would be ' + randGoals())
+    document.write('In another time and place ' + randPlayer(listOfPlayers) + ' would have played in another league. Perhaps ' + randLeague(listOfLeagues) + '. Would they have been as proficient in this league? I predict the number of goals they would have scored would be ' + randGoals())
 }
 
 sentence()
+
+function refresh(){
+    window.location.reload("Refresh")
+  }
